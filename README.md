@@ -1,3 +1,5 @@
+> **About this copy:** `see_through_walls` is a personal copy of [RuView](https://github.com/ruvnet/RuView) by rUv and contributors, imported with its full commit history from upstream `main` at commit `13b4788` (2026-11-17). All credit for the code belongs to the original authors. It keeps RuView's licence (MIT OR Apache-2.0, see [LICENSE](LICENSE)) and third-party notices ([NOTICE](NOTICE)). Everything below is RuView's own README.
+
 # π RuView
 
 <p align="center">
