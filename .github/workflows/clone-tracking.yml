@@ -52,7 +52,7 @@ jobs:
             echo "::warning title=clone-tracking skipped::TRAFFIC_TOKEN secret is not set; the traffic API needs a token with Administration: read (GITHUB_TOKEN cannot have it). No snapshot recorded this run."
           fi
 
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         if: steps.tok.outputs.present == 'true'
         with:
           submodules: recursive
