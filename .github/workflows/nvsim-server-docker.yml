@@ -36,7 +36,7 @@ jobs:
       # The image path is derived from the repository owner because a fork
       # cannot push to the upstream's `ruvnet` namespace — that push
       # fails with `denied: The requested installation does not exist`.
-      - uses: docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9
+      - uses: docker/login-action@8aa5831fb8d48d8f76594c7ddde61ae58019f550
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
